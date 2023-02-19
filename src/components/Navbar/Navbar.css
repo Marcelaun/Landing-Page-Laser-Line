@@ -1,6 +1,6 @@
-header {
+.header {
   
-  height: 8rem;
+  height: 18rem;
   width: 100%;
 
   
@@ -107,7 +107,17 @@ header .nav-btn  {
 }
 
 @media only screen and (max-width: 530px) {
-  header .nav-btn {
+
+  .link-btn {
+    font-size: 1.8rem;
+  }
+
+  .nav-logo {
+    width: 16rem;
+    
+  }
+
+  /* header .nav-btn {
     visibility: visible;
     opacity: 1;
   }
@@ -163,7 +173,7 @@ header .nav-btn  {
     position: absolute;
     top: 2rem;
     right: 2rem;
-  }
+  } */
 
   
 }
